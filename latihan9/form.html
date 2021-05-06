@@ -3,60 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
 
 <body>
-    <form>
-        <table>
-            <tr>
-                <td>
-                    <label for="username">username :</label>
-                    <input type="text" name="" id="username">
-                </td>
-            </tr>
+    <form action="">
+        <label for="username">Username : </label>
+        <input type="text" name="" id="username">
 
-            <tr>
-                <td>
-                    <label for="password">password :</label>
-                    <input type="password" name="" id="password">
-                </td>
-            </tr>
+        <br>
 
-            <tr>
-                <td style="text-align:center">
-                    <input type="radio" name="jeniskelamin" id="pria"><label for="pria">pria</label>
-                    <input type="radio" name="jeniskelamin" id="wanita"><label for="wanita">wanita</label>
-                </td>
-            </tr>
+        <label for="password">Password : </label>
+        <input type="password" name="" id="password">
 
-            <tr>
-                <td style="text-align:center">
-                    <input type="checkbox" name="" id="memanah"><label for="memanah">memanah</label>
-                    <input type="checkbox" name="" id="berkuda"><label for="berkuda">berkuda</label>
-                    <input type="checkbox" name="" id="berenang"><label for="berenang">berenang</label>
-                </td>
-            </tr>
+        <br>
 
-            <tr>
-                <td style="text-align:center"><textarea name="" id="" cols="30" rows="10"></textarea></td>
-            </tr>
+        <input type="radio" name="gender" id="male"><label for="male">Male</label>
+        <input type="radio" name="gender" id="female"><label for="male">Female</label>
 
-            <tr>
-                <td style="text-align:center">
-                    <select name="" id="">
-                        <option value="">Jakarta</option>
-                        <option value="">Bandung</option>
-                        <option value="">Banten</option>
-                    </select>
-                </td>
-            </tr>
+        <br>
 
-            <tr>
-                <td style="text-align:center"><button type="submit">submit</button></td>
-            </tr>
-        </table>
+        <input type="checkbox" name="" id="one"><label for="one">One</label>
+        <input type="checkbox" name="" id="two"><label for="two">Two</label>
+        <input type="checkbox" name="" id="three"><label for="three">Three</label>
+
+        <br>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <br>
+
+        <select name="" id="">
+            <option value="">One</option>
+            <option value="">Two</option>
+            <option value="">Three</option>
+        </select>
+
+        <br>
+
+        <!-- <input type="submit" value="Send"> -->
+
+        <button type="submit">Send</button>
     </form>
 </body>
 
